@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{--color-nav: aquamarine;}
+
+.navbar{
+    background-color: var(--color-nav);
+    padding: 20px;
+}
+
+.navbar__lista{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.navbar__items{
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+    margin: 35px;
+}
+
+.navbar__items:hover{
+    color: rgb(195, 0, 255);
+}
+
+
