@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 50px auto;
+}
+
+.card__image{
+    width: 100%;
+    height: auto;
+}
+
+.card__description{
+    margin: 10px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+}
+
+.card__button--buy{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}
+
+.card__button--buy:hover{
+    background-color: rgb(43, 123, 228);
+}
