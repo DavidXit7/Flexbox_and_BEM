@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{--color-nav: aquamarine;}
+:root{--color-nav: #1f2937;}
 
 .navbar{
     background-color: var(--color-nav);
@@ -22,8 +22,9 @@
     margin: 20px;
     cursor: pointer;
     margin: 35px;
+    color: white;
 }
 
 .navbar__items:hover{
-    color: rgb(195, 0, 255);
+    color: rgb(53, 255, 184);
 }
