@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section__header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+}
+
+.section__icons {
+    display: flex;
+    gap: 6px;
+}
+
+.section__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.section__title {
+    font-size: 1.2rem;
+    color: #333;
+}
